@@ -44,7 +44,9 @@ cd urlaubsverwaltung-docker-wiwi
     - Persistente Speicherung der Benutzer ist gewährleistet
     - Änderungen an Standardbenutzern werden **überschrieben**!
 
-## Änderungen zur Doku
+## Änderungen zur Anwender-/Betriebsdokumentation
+
+> **Anmerkung**: Folgendes ist nicht in der regulären Dokumenation enthalten oder wurde mit diesem Deployment geändert. 
 
 - Die Benutzer sind nun in der `keycloak/import/urlaubsverwaltung-realm.json` Datei definiert.
     - Diese haben auch **keine** Passwörter mehr und müssen über die Keycloak Admin Console gesetzt werden.
