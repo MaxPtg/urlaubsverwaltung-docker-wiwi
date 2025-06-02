@@ -52,7 +52,7 @@ cd urlaubsverwaltung-docker-wiwi
     - Diese haben auch **keine** Passwörter mehr und müssen über die Keycloak Admin Console gesetzt werden.
 - Der erste Benutzer, der sich in der Urlaubsverwaltung anmeldet, wird automatisch zum Admin (Office-Rolle).
 - Die Benutzer werden nun auch persistent gespeichert -> Neustart der Compose setzt **keine** Benutzer mehr zurück.
-- Die Abteilung muss noch erstellt werden (bspw. "Fakutät Wirtschaftswissenschaften")
+- Die Abteilung muss noch erstellt werden (bspw. "Fakultät Wirtschaftswissenschaften")
     - Zuweisung aller Benutzer zu dieser Abteilung ("gehört zur Abteilung")
     - Sekretär (Abteilungsleiter --> "ist Abteilungsleiter") sowie Dekan (Freigabe-Verantwortlicher --> "ist verantwortlich für die Freigabe vorläufig genehmigter Anträge") müssen noch ihre konkreten Berechtigungen für die Abteilung erhalten
     - Dies kann bei Navigaitonsleiste -> "Abteilungen" -> "Fakultät Wirtschaftswissenschaften" -> "Bearbeitet" getan werden
